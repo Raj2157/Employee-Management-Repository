@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emp_Model_Layer", "Emp_Model_Layer\Emp_Model_Layer.csproj", "{E941964F-1910-4F7C-A9BC-9B2CF1D5BF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emp_DAC_Layer", "..\Emp_DAC_Layer\Emp_DAC_Layer\Emp_DAC_Layer.csproj", "{ABA8743B-9FB8-4EA4-92CA-7B50378E5AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emp_Business_Layer", "..\Emp_Business_Layer\Emp_Business_Layer\Emp_Business_Layer.csproj", "{6BADB16C-E88D-46CC-9384-FA8D4F573DAC}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Emp_UI_Layer", "..\Emp_UI_Layer\", "{9F9EAB7F-F3B1-45FD-9104-B56113694E72}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{E941964F-1910-4F7C-A9BC-9B2CF1D5BF33}|Emp_Model_Layer.dll;{6BADB16C-E88D-46CC-9384-FA8D4F573DAC}|Emp_Business_Layer.dll;{ABA8743B-9FB8-4EA4-92CA-7B50378E5AD6}|Emp_DAC_Layer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Emp_UI_Layer"
+		Debug.AspNetCompiler.PhysicalPath = "..\Emp_UI_Layer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Emp_UI_Layer\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Emp_UI_Layer"
+		Release.AspNetCompiler.PhysicalPath = "..\Emp_UI_Layer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Emp_UI_Layer\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49302"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emp__WebService", "Emp__WebService\Emp__WebService.csproj", "{B7B9B9C7-8CAE-44C1-83A8-E69791CFE15B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E941964F-1910-4F7C-A9BC-9B2CF1D5BF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E941964F-1910-4F7C-A9BC-9B2CF1D5BF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E941964F-1910-4F7C-A9BC-9B2CF1D5BF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E941964F-1910-4F7C-A9BC-9B2CF1D5BF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA8743B-9FB8-4EA4-92CA-7B50378E5AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA8743B-9FB8-4EA4-92CA-7B50378E5AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA8743B-9FB8-4EA4-92CA-7B50378E5AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA8743B-9FB8-4EA4-92CA-7B50378E5AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BADB16C-E88D-46CC-9384-FA8D4F573DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BADB16C-E88D-46CC-9384-FA8D4F573DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BADB16C-E88D-46CC-9384-FA8D4F573DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BADB16C-E88D-46CC-9384-FA8D4F573DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9EAB7F-F3B1-45FD-9104-B56113694E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9EAB7F-F3B1-45FD-9104-B56113694E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9EAB7F-F3B1-45FD-9104-B56113694E72}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9EAB7F-F3B1-45FD-9104-B56113694E72}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B7B9B9C7-8CAE-44C1-83A8-E69791CFE15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B9B9C7-8CAE-44C1-83A8-E69791CFE15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B9B9C7-8CAE-44C1-83A8-E69791CFE15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B9B9C7-8CAE-44C1-83A8-E69791CFE15B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
