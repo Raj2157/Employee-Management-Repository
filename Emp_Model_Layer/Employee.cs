@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Emp_Model_Layer
 {
-    public class Employee1234
+    public class Employee
     {
                 private string _FirstName;
 
